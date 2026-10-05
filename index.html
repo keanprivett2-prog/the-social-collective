@@ -778,42 +778,198 @@
 
 
     <!-- =========================
-         CONTACT SECTION
-    ========================== -->
+     CONTACT SECTION
+========================== -->
 
-    <section
-        id="contact"
-        class="contact"
-    >
+<section id="contact" class="contact">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="tag">
-                Let's connect
+        <div class="contact-grid">
+
+            <!-- LEFT SIDE -->
+
+            <div class="contact-content">
+
+                <div class="tag">
+                    Let's connect
+                </div>
+
+                <h2>
+                    Ready to make
+                    <span>social work harder?</span>
+                </h2>
+
+                <p class="contact-intro">
+                    Tell us a little about your business and what
+                    you're looking for. We'll take it from there —
+                    no confusing marketing talk.
+                </p>
+
+                <div class="contact-details">
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon">↗</span>
+
+                        <div>
+                            <small>Email us</small>
+                            <a href="mailto:taylormiddlemas90@gmail.com">
+                                taylormiddlemas90@gmail.com
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon">✦</span>
+
+                        <div>
+                            <small>Based in</small>
+                            <strong>Johannesburg, South Africa</strong>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
 
-            <h2>
-                Ready to grow your socials?
-            </h2>
 
-            <p>
-                Tell us about your brand, your goals and
-                where you want to go next.
+            <!-- RIGHT SIDE -->
 
-                We'll take it from there.
-            </p>
+            <div class="contact-form-card">
+
+                <div class="contact-form-heading">
+                    <span>Start a conversation</span>
+                    <span>↗</span>
+                </div>
+
+                <form id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Your name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="business">Business name</label>
+                            <input
+                                type="text"
+                                id="business"
+                                name="business"
+                                placeholder="Your business"
+                            >
+                        </div>
+
+                    </div>
 
 
-            <a
-                class="btn primary"
-                href="mailto:taylormiddlemas90@gmail.com"
-            >
-                taylormiddlemas90@gmail.com
-            </a>
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@business.co.za"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="+27"
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            What can we help with?
+                        </label>
+
+                        <select
+                            id="service"
+                            name="service"
+                            required
+                        >
+                            <option value="" selected disabled>
+                                Select a service
+                            </option>
+
+                            <option value="Social Media Management">
+                                Social Media Management
+                            </option>
+
+                            <option value="Meta Advertising">
+                                Meta Advertising
+                            </option>
+
+                            <option value="Content Creation">
+                                Content Creation
+                            </option>
+
+                            <option value="Social Strategy">
+                                Social Strategy
+                            </option>
+
+                            <option value="Not Sure">
+                                I'm not sure yet
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Tell us about your business
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="What are you looking to achieve?"
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="contact-submit"
+                    >
+                        Send enquiry
+                        <span>↗</span>
+                    </button>
+
+                </form>
+
+            </div>
 
         </div>
 
-    </section>
+    </div>
+
+</section>
 
 
     <!-- =========================
