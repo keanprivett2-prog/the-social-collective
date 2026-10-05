@@ -2753,3 +2753,24 @@ footer {
     background: var(--navy);
     color: var(--white);
 }
+
+/* =====================================================
+   HERO LOGO HOVER EFFECT
+===================================================== */
+
+.hero-visual .logo-card {
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+.hero-visual .logo-card:hover {
+    transform:
+        rotate(0deg)
+        translateY(-10px)
+        scale(1.02);
+
+    box-shadow:
+        0 45px 100px
+        rgba(23, 19, 61, 0.23);
+}
